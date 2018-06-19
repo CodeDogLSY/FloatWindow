@@ -244,10 +244,10 @@ public class IFloatWindowImpl extends IFloatWindow {
 
                                         int startY = mFloatView.getY();
                                         int endY = startY;
-                                        if (startY < 20) {
-                                            endY = 20;
-                                        } else if (startY > Util.getScreenHeight(mB.mApplicationContext) - v.getHeight()) {
-                                            endY = Util.getScreenHeight(mB.mApplicationContext) - v.getHeight() - 20;
+                                        if (startY < 40) {
+                                            endY = 40;
+                                        } else if (startY > Util.getScreenHeight(mB.mApplicationContext) - v.getWidth()-80) {
+                                            endY = Util.getScreenHeight(mB.mApplicationContext) - v.getWidth() - 80;
                                         }
 
                                         PropertyValuesHolder pvhX1 = PropertyValuesHolder.ofInt("x", mFloatView.getX(), endX);
