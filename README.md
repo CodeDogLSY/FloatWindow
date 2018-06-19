@@ -21,7 +21,7 @@
 
 ```
 	dependencies {
-	        compile 'com.github.yhaolpz:FloatWindow:1.0.9'
+	        implementation 'com.github.CodeDogLSY:FloatWindow:1.1.0'
 	}
 ```
 
